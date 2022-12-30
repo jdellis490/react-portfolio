@@ -11,15 +11,48 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #282c34;
+  font-size: 17px;
 }
 .header {
-  font-size: 30px;
+  font-size: 50px;
   font-weight: bold;
   text-align: left;
-  margin: 40px 25px;
+  padding: 40px 25px;
   color: aliceblue;
+  background-color: black;
 }
 
+.navbar {
+  background-color: indigo;
+  color: white;
+}
+.navbar ul {
+  padding: 0;
+  list-style: none;
+}
+.navbar li {
+  display: inline;
+}
+.navbar a {
+  color: aqua;
+  text-decoration: none;
+  font-size: 25px;
+  padding-right: 20px;
+}
+
+
+.container{
+
+}
+
+.footer {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  color:aquamarine;
+  background-color: midnightblue;
+  padding: 20px;
+  margin-top: 40px;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
