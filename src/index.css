@@ -42,7 +42,9 @@ body {
 
 
 .container{
-
+  width: 90%;
+  margin: auto;
+  padding: 10px;
 }
 
 .footer {
