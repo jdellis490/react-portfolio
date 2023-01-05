@@ -3,9 +3,9 @@ import Nav from "react-bootstrap/Nav";
 
 const Navbar = ({currentPage, pageChange}) => {
   return (
-    <ul>
-      <li><a href="#about" onClick={() =>pageChange('About')} currentPage={currentPage}>About Me
-      </a></li>
+    <ul className="navbar">
+      <li><a href="#home" onClick={() => pageChange('Home')} currentPage={currentPage}>Home</a></li>
+      <li><a href="#about" onClick={() => pageChange('About')} currentPage={currentPage}>About Me</a></li>
       <li>Projects</li>
       <li>Contact Me</li>
       <li>Resume</li>
