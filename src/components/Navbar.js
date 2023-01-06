@@ -1,5 +1,4 @@
 import React from "react";
-import Nav from "react-bootstrap/Nav";
 
 const Navbar = ({pageChange, currentpage}) => { 
   // Had to lowercase currentPage because its an attribute on a DOM element instead of a React Component
