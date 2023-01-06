@@ -1,31 +1,16 @@
 import React from "react";
 import Nav from "react-bootstrap/Nav";
 
-const Navbar = ({currentPage, pageChange}) => {
+const Navbar = ({pageChange, currentpage}) => { 
+  // Had to lowercase currentPage because its an attribute on a DOM element instead of a React Component
   return (
     <ul className="navbar">
-      <li><a href="#home" onClick={() => pageChange('Home')} currentPage={currentPage}>Home</a></li>
-      <li><a href="#about" onClick={() => pageChange('About')} currentPage={currentPage}>About Me</a></li>
-      <li>Projects</li>
-      <li>Contact Me</li>
-      <li>Resume</li>
+      <li><a href="#home" onClick={() => pageChange('Home')} currentpage={currentpage}>Home</a></li>
+      <li><a href="#about" onClick={() => pageChange('About')} currentpage={currentpage}>About Me</a></li>
+      <li><a href="#project" onClick={() => pageChange('Project')} currentpage={currentpage}>Projects</a></li>
+      <li><a href="#contact" onClick={() => pageChange('Contact')} currentpage={currentpage}>Contact Me</a></li>
+      <li><a href="#resume" onClick={() => pageChange('Resume')} currentpage={currentpage}>Resume</a></li>
     </ul>
-      // <Nav className="navbar" justify variant="tabs" defaultActiveKey="#">
-      //   <div className="container">
-      //     <Nav.Item>
-      //       <Nav.Link href="/About">About Me</Nav.Link>
-      //     </Nav.Item>
-      //     <Nav.Item>
-      //       <Nav.Link eventKey="portfolio">Portfolio</Nav.Link>
-      //     </Nav.Item>
-      //     <Nav.Item>
-      //       <Nav.Link eventKey="contact">Contact Me</Nav.Link>
-      //     </Nav.Item>
-      //     <Nav.Item>
-      //       <Nav.Link eventKey="resume">Resume</Nav.Link>
-      //     </Nav.Item>
-      //   </div>
-      // </Nav>
   );
 };
 
