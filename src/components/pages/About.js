@@ -4,7 +4,10 @@ import ProfilePic from "../assets/images/MePortfolio.jpeg";
 const About = () => {
   return (
     <div className="container">
-      <img src={ProfilePic} alt="ProfilePic" width={300} height={400} />
+      <h1 className="title">About me</h1>
+      <div className="image">
+      <img  src={ProfilePic} alt="ProfilePic" width={300} height={400} />
+      </div>
       <div className="container">
         <h5>
           Hello, I'm Justin, a now Full Stack Software Engineer with a

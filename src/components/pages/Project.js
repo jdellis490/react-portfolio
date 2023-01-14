@@ -12,6 +12,8 @@ import {
 
 const Project = () => {
   return (
+    <div className="container">
+      <h1 className="title">Projects</h1>
     <div className="project-container">
        <Card className="project">
         <Card.Img variant="top" src={weatherDash} />
@@ -139,7 +141,7 @@ const Project = () => {
           </small>
         </Card.Footer>
       </Card> */}
-      
+      </div>
     </div>
   );
 };
