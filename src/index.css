@@ -99,7 +99,7 @@ img {
   width: 300px;
   height: 400px;
   margin: 20px 20px 40px 20px;
-  box-shadow: 0px 0px 12px -4px var(--light);
+  box-shadow: 0px 0px 35px -2px var(--light);
   transition: 200ms ease-in-out;
 }
 
@@ -111,6 +111,30 @@ img {
 .image :hover{
   border-radius: 50%;
   transition: 200ms ease;
+}
+
+.skills ul{
+  padding: 0;
+  list-style: disc;
+}
+.skills li{
+  display: inline;
+}
+.skill-images {
+  /* margin: 30px;
+  padding: 0 10px;
+  height: 80px;
+  width: auto;
+  align-items: center;
+  justify-content: center;
+  list-style: none; */
+  margin-top: 30px;
+  padding: 10 10px;
+  height: 80px;
+  width: auto;
+  overflow: clip;
+  overflow-clip-margin: 20px;
+
 }
 
 .project-container{
@@ -152,7 +176,8 @@ img {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-align: center;
   color: var(--bright);
-  background-image: linear-gradient(to right, var(--medium) , var(--light));
+  background-color: var(--dark);
+  /* background-image: linear-gradient(to right, var(--medium) , var(--light)); */
   margin-top: 50px;
   padding: 15px;
   position: sticky;

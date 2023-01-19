@@ -1,12 +1,25 @@
 import React from "react";
 import ProfilePic from "../assets/images/MePortfolio.jpeg";
+import { html5,
+    css3,
+    javascript,
+    jquery,
+    bootstrap,
+    mongodb,
+    express,
+    reactjs,
+    node,
+    mysql,
+    github,
+    mern
+} from '../assets/images/skills/index';
 
 const About = () => {
   return (
     <div className="container">
       <h1 className="title">About me</h1>
       <div className="image">
-      <img  src={ProfilePic} alt="ProfilePic" />
+      <img  src={ProfilePic} alt="Justin Ellis" />
       </div>
       <section className="container">
         <h5>
@@ -27,6 +40,25 @@ const About = () => {
           games, spending time with friends, and the occasional Netflix binge.
         </h5>
       </section>
+      <div className="container">
+        <h1 className="title">Skills</h1>
+        <div className="skills">
+        <ul>
+          <li><img className="skill-images" src={html5} alt="HTML5" /></li>
+          <li><img className="skill-images" src={css3} alt="CSS3" /></li>
+          <li><img className="skill-images" src={javascript} alt="JS" /></li>
+          <li><img className="skill-images" src={reactjs} alt="React" /></li>
+          <li><img className="skill-images" src={express} alt="Express" /></li>
+          <li><img className="skill-images" src={mongodb} alt="MongoDB" /></li>
+          <li><img className="skill-images" src={node} alt="NodeJs" /></li>
+          <li><img className="skill-images" src={mysql} alt="MySQL" /></li>
+          <li><img className="skill-images" src={jquery} alt="JQuery" /></li>
+          <li><img className="skill-images" src={bootstrap} alt="Boostrap" /></li>
+          <li><img className="skill-images" src={github} alt="GitHub" /></li>
+          <li><img className="skill-images" src={mern} alt="MERN" /></li>
+        </ul>
+        </div>
+     </div>
     </div>
   );
 };
