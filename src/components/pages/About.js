@@ -6,9 +6,9 @@ const About = () => {
     <div className="container">
       <h1 className="title">About me</h1>
       <div className="image">
-      <img  src={ProfilePic} alt="ProfilePic" width={300} height={400} />
+      <img  src={ProfilePic} alt="ProfilePic" />
       </div>
-      <div className="container">
+      <section className="container">
         <h5>
           Hello, I'm Justin, a now Full Stack Software Engineer with a
           background in Occupational Therapy. On my spare time, I am constantly
@@ -26,7 +26,7 @@ const About = () => {
           seems worth it. When I am not coding, I enjoy working out, video
           games, spending time with friends, and the occasional Netflix binge.
         </h5>
-      </div>
+      </section>
     </div>
   );
 };
