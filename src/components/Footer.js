@@ -6,13 +6,13 @@ import { BsEnvelope } from 'react-icons/bs';
 
 const Footer = () => {
   return (
-    <section className='footer'>
+    <div className='footer'>
       <p>Copyright &copy; 2023 Justin Ellis</p>
-      <FaLinkedin  size={30}/> 
-      <GoMarkGithub  size={30}/> 
-      <BsEnvelope  size={30} /> 
-      <BsFileEarmark size={30}/>
-    </section>
+      <a href='https://www.linkedin.com/in/ellisjd/' id='linkedin-icon'><FaLinkedin  size={30} /></a>
+      <a href='https://github.com/jdellis490' id='github-icon'><GoMarkGithub  size={30} /></a>
+      <a href='mailto:jdellis490@gmail.com' id='email-icon'><BsEnvelope  size={30} /></a>
+      <a href='' id='resume-icon'><BsFileEarmark size={30} /></a>
+    </div>
   )
 }
 
