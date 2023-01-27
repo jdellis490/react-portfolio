@@ -4,7 +4,7 @@ import { FaLinkedin } from 'react-icons/fa';
 
 const Contact = () => {  
   return (
-    <div className='container'>
+    <div className='contact-container'>
       <h2 className='title'>Get in touch!</h2>
       <div className='contact-box'>
       <div className='contact-info'>

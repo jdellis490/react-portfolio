@@ -22,8 +22,8 @@ const About = () => {
       <img  id='profile-pic' src={ProfilePic} alt="Justin Ellis" />
       </div>
       <section className="container">
-        <h5>
-          Hello, I'm Justin, a now Full Stack Software Engineer with a
+        <p>
+          Hello, I'm Justin, a now Full Stack Web Developer with a
           background in Occupational Therapy. On my spare time, I am constantly
           working to improve my skills gained through continuing education on
           technologies and seeing how I can apply them to my everyday life. Ever
@@ -38,7 +38,7 @@ const About = () => {
           enough effort is placed, fulfillment occurs and all the hard work
           seems worth it. When I am not coding, I enjoy working out, video
           games, spending time with friends, and the occasional Netflix binge.
-        </h5>
+        </p>
       </section>
       <div className="container">
         <h1 className="title">Skills</h1>
