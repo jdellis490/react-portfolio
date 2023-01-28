@@ -142,18 +142,14 @@ p {
 }
 
 .project-container{
-  height: auto;
-  width: auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
   gap: 10px;
 }
 
 .project{
   justify-content: center;
   width: 100%;
-  padding: 10px;
 }
 
 .project-info{
@@ -260,7 +256,11 @@ code {
   }
   .skill-images {
     width: 35%;
-    
+  }
+  
+  .project-container{
+    display: grid;
+    grid-template-columns: 1fr;
   }
   .contact-container {
     width: auto;
