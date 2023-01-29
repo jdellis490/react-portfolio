@@ -2,11 +2,8 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import {
-  passGen,
   weatherDash,
-  workayPlan,
   animeSearch,
-  jateEdit,
   socialAPI,
 } from "../assets/index";
 
@@ -26,12 +23,10 @@ const Project = () => {
         </Card.Body>
         <Card.Footer>
           <small>
-            <Button variant="success">
-              <a href="https://jdellis490.github.io/weather-dashboard/"></a>
+            <Button variant="success" href="https://jdellis490.github.io/weather-dashboard/" target="_blank" rel="noopener noreferrer">
               Deployment
             </Button>{" "}
-            <Button variant="secondary">
-              <a href="https://github.com/jdellis490/weather-dashboard"></a>
+            <Button variant="secondary" href="https://github.com/jdellis490/weather-dashboard" target="_blank" rel="noopener noreferrer">
               GitHub
             </Button>
           </small>
@@ -48,11 +43,11 @@ const Project = () => {
         </Card.Body>
         <Card.Footer>
           <small>
-            <Button variant="success">
-              <a href="https://skyw41k3r.github.io/project_1/ "></a>Deployment
+            <Button variant="success" href="https://skyw41k3r.github.io/project_1/ " target="_blank" rel="noopener noreferrer">
+              Deployment
             </Button>{" "}
-            <Button variant="secondary">
-              <a href="https://github.com/Skyw41k3r/project_1"></a>GitHub
+            <Button variant="secondary" href="https://github.com/Skyw41k3r/project_1" target="_blank" rel="noopener noreferrer">
+              GitHub
             </Button>
           </small>
         </Card.Footer>
@@ -69,8 +64,7 @@ const Project = () => {
         <Card.Footer>
           <br></br>
           <small>
-            <Button variant="success">
-              <a href="https://github.com/jdellis490/Social-Network-API"></a>
+            <Button variant="success" href="https://github.com/jdellis490/Social-Network-API" target="_blank" rel="noopener noreferrer">
               GitHub
             </Button>
           </small>

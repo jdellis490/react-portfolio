@@ -82,9 +82,7 @@ p {
 }
 
 .navbar a:hover{
-  color: var(--bright);
-  text-shadow: 1px 1px 3px white;
-  
+  color: var(--bright);  
 }
 
 .container{
@@ -109,18 +107,13 @@ p {
   width: auto;
   height: 400px;
   margin: 20px 20px 40px 20px;
-  box-shadow: 0px 0px 35px -2px var(--light);
-  transition: 200ms ease-in-out;
+  border-radius: 10%;
 }
 
 .image {
   display: flex;
   justify-content: center;
   padding-bottom: 20px;
-}
-.image :hover{
-  border-radius: 50%;
-  transition: 200ms ease;
 }
 
 .skills ul{
@@ -131,13 +124,12 @@ p {
 }
 .skill-images {
   margin: 20px 20px 40px 20px;
-  border-radius: 25%;
+  border-radius: 15%;
   padding: 10 10px;
   height: 100px;
   width: 120px;
   object-fit: contain;
   background-color: white;
-  box-shadow: 0px 0px 35px -2px var(--light);
   transition: 200ms ease-in-out;
 }
 
