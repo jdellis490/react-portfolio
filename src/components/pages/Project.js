@@ -15,7 +15,7 @@ const Project = () => {
           <Card.Body>
             <Card.Title>Weather Dashboard</Card.Title>
             <Card.Text>
-              This project uses and API to get the weather conditions and
+              This project uses an API to get the weather conditions and
               temperature of different cities across the country.
               {/* Might add technologies used in each application later below */}
             </Card.Text>
@@ -47,7 +47,7 @@ const Project = () => {
             <Card.Title>Anime Search Engine</Card.Title>
             <Card.Text>
               Search engine that uses multiple API calls to fetch anime titles,
-              descriptions, ratings, and YouTube trailers from anime title
+              descriptions, ratings, and YouTube trailers from an anime title
               input.
             </Card.Text>
           </Card.Body>
