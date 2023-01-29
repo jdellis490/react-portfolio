@@ -4,17 +4,17 @@
 }
 
 :root {
-  --bright:#E7F6F2;
-  --light:#A5C9CA;
-  --medium:#395B64;
-  --dark:#2C3333;
+  --bright: #e7f6f2;
+  --light: #a5c9ca;
+  --medium: #395b64;
+  --dark: #2c3333;
 }
 html {
   background-color: var(--medium);
 }
 body {
   margin: 0;
-  font-family: 'Philosopher', sans-serif;
+  font-family: "Philosopher", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--medium);
@@ -27,7 +27,7 @@ div {
 
 p {
   color: var(--bright);
-  font-family: 'Philosopher', sans-serif;
+  font-family: "Philosopher", sans-serif;
   font-size: 20px;
 }
 
@@ -37,11 +37,11 @@ p {
   width: 90%;
   margin: auto;
   padding: 10px;
-  background-image: linear-gradient(to right, var(--medium) , var(--light));
+  background-image: linear-gradient(to right, var(--medium), var(--light));
 }
 
 .header {
-  font-family: 'Philosopher', sans-serif;
+  font-family: "Philosopher", sans-serif;
   font-size: 60px;
   font-style: italic;
   font-weight: bold;
@@ -49,7 +49,7 @@ p {
   padding: 40px;
   margin: auto;
   color: var(--dark);
-  background-image: linear-gradient(to right, var(--medium) , var(--light));
+  background-image: linear-gradient(to right, var(--medium), var(--light));
 }
 
 .navbar {
@@ -73,7 +73,7 @@ p {
 .navbar a {
   color: var(--light);
   text-decoration: none;
-  font-family: 'Philosopher', sans-serif;
+  font-family: "Philosopher", sans-serif;
   font-size: 20px;
   font-weight: bolder;
   padding: 10px 40px;
@@ -81,11 +81,11 @@ p {
   cursor: pointer;
 }
 
-.navbar a:hover{
-  color: var(--bright);  
+.navbar a:hover {
+  color: var(--bright);
 }
 
-.container{
+.container {
   display: flex;
   flex-direction: column;
   width: 90%;
@@ -93,8 +93,8 @@ p {
   padding: 10px;
 }
 
-.title{
-  font-family: 'Philosopher', sans-serif;;
+.title {
+  font-family: "Philosopher", sans-serif;
   color: var(--bright);
   margin: 20px;
   text-align: center;
@@ -116,10 +116,10 @@ p {
   padding-bottom: 20px;
 }
 
-.skills ul{
+.skills ul {
   padding: 0 20px;
 }
-.skills li{
+.skills li {
   display: inline;
 }
 .skill-images {
@@ -133,30 +133,30 @@ p {
   transition: 200ms ease-in-out;
 }
 
-.project-container{
+.project-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 10px;
 }
 
-.project{
+.project {
   justify-content: center;
   width: 100%;
 }
 
-.project-info{
-  font-family: 'Philosopher', sans-serif;
+.project-info {
+  font-family: "Philosopher", sans-serif;
   font-size: 20px;
 }
 
-.contact-container{
+.contact-container {
   margin: auto;
   overflow: auto;
   min-height: 100vh;
   width: 90%;
   height: auto;
 }
-.contact-box{
+.contact-box {
   margin: 50px;
   overflow: hidden;
   width: auto;
@@ -167,7 +167,7 @@ p {
 
 .contact-info {
   color: var(--bright);
-  font-family: 'Philosopher', sans-serif;
+  font-family: "Philosopher", sans-serif;
   font-size: 25px;
   padding: 10px;
   margin: 20px 20px;
@@ -194,7 +194,7 @@ p {
   color: var(--bright);
 }
 #linkedin-icon:hover {
-  color: #0a66c2
+  color: #0a66c2;
 }
 #email-icon {
   color: var(--bright);
@@ -209,12 +209,11 @@ p {
   color: orange;
 }
 
-
 .footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  font-family: 'Philosopher', sans-serif;
+  font-family: "Philosopher", sans-serif;
   font-size: 20px;
   text-align: left;
   color: var(--bright);
@@ -229,7 +228,7 @@ p {
   padding-left: 10px;
   padding-right: 10px;
 }
-.footer li{
+.footer li {
   padding-left: 10px;
   padding-right: 10px;
   list-style: none;
@@ -239,7 +238,7 @@ p {
 }
 
 code {
-  font-family: 'Philosopher', sans-serif;
+  font-family: "Philosopher", sans-serif;
 }
 
 @media screen and (max-width: 767px) {
@@ -249,8 +248,8 @@ code {
   .skill-images {
     width: 35%;
   }
-  
-  .project-container{
+
+  .project-container {
     display: grid;
     grid-template-columns: 1fr;
   }
@@ -262,14 +261,12 @@ code {
     text-align: center;
     flex-direction: column-reverse;
   }
-
 }
-@media screen and (min-width: 768px) and (max-width:1023px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .contact-box {
     justify-content: center;
-  }   
+  }
 }
 
 @media screen and (min-width: 1024px) {
-
 }
