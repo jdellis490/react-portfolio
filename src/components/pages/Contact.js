@@ -17,8 +17,8 @@ const Contact = () => {
           <br />
           <a href='mailto:jdellis490@gmail.com' id='email'>jdellis490@gmail.com</a>
           <br />
-          <a href='https://github.com/jdellis490' id='github-icon'><GoMarkGithub size={40} /></a> {' '}
-          <a href='https://www.linkedin.com/in/ellisjd/' id='linkedin-icon'><FaLinkedin size={40} /></a>
+          <a href='https://github.com/jdellis490' target='_blank' id='github-icon'><GoMarkGithub size={40} /></a> {' '}
+          <a href='https://www.linkedin.com/in/ellisjd/' target='_blank' id='linkedin-icon'><FaLinkedin size={40} /></a>
         </p>
         </div>
       </div>

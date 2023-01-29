@@ -24,13 +24,13 @@ const About = () => {
       <section className="container">
         <p>
           Hello, I'm Justin, a now Full Stack Web Developer with a
-          background in Occupational Therapy. On my spare time, I am constantly
+          background in Occupational Therapy. In my spare time, I am constantly
           working to improve my skills gained through continuing education on
           technologies and seeing how I can apply them to my everyday life. Ever
           since I learned programming, I developed a passion for it and try to
-          make a daily habit. Technology never stops improving, whether it's
+          make it a daily habit. Technology never stops improving, whether it's
           through improved versions or completely new creations, and I am
-          willing to commit to learn in the future and the work place.
+          willing to commit and learn in the future and the work place.
           <br></br>
           <br></br>
           Programming is an amazing creative outlet that allows one to make

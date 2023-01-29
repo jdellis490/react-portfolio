@@ -27,11 +27,11 @@ const Project = () => {
         <Card.Footer>
           <small>
             <Button variant="success">
-              <a href="https://jdellis490.github.io/Weather-Dashboard-HW6/"></a>
+              <a href="https://jdellis490.github.io/weather-dashboard/"></a>
               Deployment
             </Button>{" "}
             <Button variant="secondary">
-              <a href="https://github.com/jdellis490/Weather-Dashboard-HW6"></a>
+              <a href="https://github.com/jdellis490/weather-dashboard"></a>
               GitHub
             </Button>
           </small>
@@ -76,71 +76,6 @@ const Project = () => {
           </small>
         </Card.Footer>
       </Card>
-      {/* <Card className="project">
-        <Card.Img variant="top" src={passGen} />
-        <Card.Body>
-          <Card.Title>Password Generator</Card.Title>
-          <Card.Text>
-            Following prompts, this allows users to generate complex
-            and secure passwords that they can use for various accounts.
-          </Card.Text>
-        </Card.Body>
-        <Card.Footer>
-          <small>
-            <Button variant="success">
-              <a href="https://jdellis490.github.io/HW3-PasswordGen/"></a>
-              Deployment
-            </Button>{" "}
-            <Button variant="secondary">
-              <a href="https://github.com/jdellis490/HW3-PasswordGen"></a>GitHub
-            </Button>
-          </small>
-        </Card.Footer>
-      </Card>
-      <Card className="">
-        <Card.Img variant="top" src={workayPlan} />
-        <Card.Body>
-          <Card.Title>Work Day Planner</Card.Title>
-          <Card.Text>
-            Project that allows user to input notes or reminders for different
-            parts of the day based on the hour. Has past, present, and future
-            color indicators as well.
-          </Card.Text>
-        </Card.Body>
-        <Card.Footer>
-          <small>
-            <Button variant="success">
-              <a href="https://jdellis490.github.io/Day-Planner-HW5"></a>
-              Deployment
-            </Button>{" "}
-            <Button variant="secondary">
-              <a href="https://github.com/jdellis490/Day-Planner-HW5"></a>GitHub
-            </Button>
-          </small>
-        </Card.Footer>
-      </Card>
-      
-      <Card className="">
-        <Card.Img variant="top" src={jateEdit} />
-        <Card.Body>
-          <Card.Title>JATE Text Editor</Card.Title>
-          <Card.Text>
-            Application that can be installed on the users computer that allows
-            them to write notes or code snippets in the browser. App functions
-            offline as well.
-          </Card.Text>
-        </Card.Body>
-        <Card.Footer>
-          <small>
-            <Button variant="success">
-              <a href="https://jate-pwa-editor.herokuapp.com/"></a>Deployment
-            </Button>{" "}
-            <Button variant="secondary">
-              <a href="https://github.com/jdellis490/TextEditor"></a>GitHub
-            </Button>
-          </small>
-        </Card.Footer>
-      </Card> */}
       </div>
     </div>
   );
