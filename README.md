@@ -16,6 +16,8 @@ Its deployed on GitHub pages.
 ## Usage
 
 Here is a screenshot of the application:
+<img width="1000" height="500" alt="ReactPortfolio" src="https://user-images.githubusercontent.com/81279037/215306175-4fc991e4-bca7-45c7-9283-2488f044b113.png">
+
 
 ## How to Contribute
 
