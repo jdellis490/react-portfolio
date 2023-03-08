@@ -2,7 +2,7 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
-import { weatherDash, animeSearch, socialAPI } from "../assets/index";
+import { weatherDash, animeScout, socialAPI } from "../assets/index";
 
 // Each Project contains a screenshot of app, description, link to deployment(if possible), and link to GitHub repo.
 const Project = () => {
@@ -10,6 +10,37 @@ const Project = () => {
     <div className="container">
       <h1 className="title">Projects</h1>
       <div className="project-container">
+      <Card className="project">
+          <Card.Img variant="top" src={animeScout} />
+          <Card.Body>
+            <Card.Title>Anime Scout</Card.Title>
+            <Card.Text>
+              Search engine that uses multiple API calls to fetch anime titles,
+              descriptions, ratings, and YouTube trailers from an anime title
+              input.
+            </Card.Text>
+          </Card.Body>
+          <Card.Footer>
+            <small>
+              <Button
+                variant="success"
+                href="https://jdellis490.github.io/anime-scout/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Deployment
+              </Button>{" "}
+              <Button
+                variant="secondary"
+                href="https://github.com/jdellis490/anime-scout"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                GitHub
+              </Button>
+            </small>
+          </Card.Footer>
+        </Card>
         <Card className="project">
           <Card.Img variant="top" src={weatherDash} />
           <Card.Body>
@@ -33,37 +64,6 @@ const Project = () => {
               <Button
                 variant="secondary"
                 href="https://github.com/jdellis490/weather-dashboard"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                GitHub
-              </Button>
-            </small>
-          </Card.Footer>
-        </Card>
-        <Card className="project">
-          <Card.Img variant="top" src={animeSearch} />
-          <Card.Body>
-            <Card.Title>Anime Search Engine</Card.Title>
-            <Card.Text>
-              Search engine that uses multiple API calls to fetch anime titles,
-              descriptions, ratings, and YouTube trailers from an anime title
-              input.
-            </Card.Text>
-          </Card.Body>
-          <Card.Footer>
-            <small>
-              <Button
-                variant="success"
-                href="https://skyw41k3r.github.io/project_1/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Deployment
-              </Button>{" "}
-              <Button
-                variant="secondary"
-                href="https://github.com/Skyw41k3r/project_1"
                 target="_blank"
                 rel="noopener noreferrer"
               >
