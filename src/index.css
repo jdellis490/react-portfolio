@@ -30,6 +30,9 @@ p {
   font-family: "Philosopher", sans-serif;
   font-size: 20px;
 }
+.p-resume {
+  text-align: center;
+}
 
 .section-container {
   display: flex;
@@ -114,6 +117,14 @@ p {
   display: flex;
   justify-content: center;
   padding-bottom: 20px;
+}
+
+.resume-pic {
+  display: flex;
+  justify-content: center;
+  height: 400px;
+  width: 300px;
+  margin: 40px;
 }
 
 .skills ul {

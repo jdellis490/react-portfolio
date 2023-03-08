@@ -36,7 +36,7 @@ const Footer = () => {
           </a>
         </li>
         <li>
-          <a href="" id="resume-icon">
+          <a href='https://drive.google.com/file/d/1pemZICcvyP9iByfzmHvZ8cEymW4p3OH4/view?usp=sharing' target='_blank'rel='noopener noreferrer' id="resume-icon">
             <BsFileEarmark size={30} />
           </a>
         </li>

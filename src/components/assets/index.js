@@ -1,6 +1,6 @@
 // Indexed Project images
 import weatherDash from "./Weather-Dashboard.png";
-import animeSearch from "./Anime-Search-Engine.png";
 import socialAPI from "./Social-Network-API.png";
+import animeScout from "./AnimeScoutScreen.png";
 
-export { weatherDash, animeSearch, socialAPI };
+export { weatherDash, animeScout, socialAPI };
