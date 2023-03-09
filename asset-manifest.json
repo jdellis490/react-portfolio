@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.d5fc4fb1.css",
-    "main.js": "/react-portfolio/static/js/main.510f4817.js",
+    "main.css": "/react-portfolio/static/css/main.d86cacdd.css",
+    "main.js": "/react-portfolio/static/js/main.e2cbfe1e.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
-    "static/media/Anime-Search-Engine.png": "/react-portfolio/static/media/Anime-Search-Engine.fc2d4d0c2cf4fc02d017.png",
+    "static/media/AnimeScoutScreen.png": "/react-portfolio/static/media/AnimeScoutScreen.a5d9536df5ec5f7a6e39.png",
     "static/media/MePortfolio.jpeg": "/react-portfolio/static/media/MePortfolio.2f0acea562cfa6572e33.jpeg",
     "static/media/Weather-Dashboard.png": "/react-portfolio/static/media/Weather-Dashboard.9550a59068d01e6c4dea.png",
     "static/media/Social-Network-API.png": "/react-portfolio/static/media/Social-Network-API.4d22a5cbda56552a86d1.png",
+    "static/media/givinghand.jpeg": "/react-portfolio/static/media/givinghand.254c2280924d999171af.jpeg",
     "static/media/css3.png": "/react-portfolio/static/media/css3.8a182087615a3845ebac.png",
     "static/media/jquery.png": "/react-portfolio/static/media/jquery.94544f76670668b8a863.png",
     "static/media/node.png": "/react-portfolio/static/media/node.93609dcb4487bd938dab.png",
     "index.html": "/react-portfolio/index.html",
-    "main.d5fc4fb1.css.map": "/react-portfolio/static/css/main.d5fc4fb1.css.map",
-    "main.510f4817.js.map": "/react-portfolio/static/js/main.510f4817.js.map",
+    "main.d86cacdd.css.map": "/react-portfolio/static/css/main.d86cacdd.css.map",
+    "main.e2cbfe1e.js.map": "/react-portfolio/static/js/main.e2cbfe1e.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d5fc4fb1.css",
-    "static/js/main.510f4817.js"
+    "static/css/main.d86cacdd.css",
+    "static/js/main.e2cbfe1e.js"
   ]
 }
