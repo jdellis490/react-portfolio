@@ -1,6 +1,6 @@
 import React from "react";
 
-// Object destructuring assignment to pluck off our variables from the props object then assing variable names.
+// Object destructuring assignment to pluck off variables from the props object then assign variable names.
 const Navbar = ({ pageChange, currentpage }) => {
   // Had to lowercase currentPage because its an attribute on a DOM element instead of a React Component.
   return (
