@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.d86cacdd.css",
-    "main.js": "/react-portfolio/static/js/main.e2cbfe1e.js",
+    "main.css": "/react-portfolio/static/css/main.d115e975.css",
+    "main.js": "/react-portfolio/static/js/main.e4e995fa.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/AnimeScoutScreen.png": "/react-portfolio/static/media/AnimeScoutScreen.a5d9536df5ec5f7a6e39.png",
+    "static/media/NeupixlScreen.png": "/react-portfolio/static/media/NeupixlScreen.dce120b386c26ca0b93e.png",
     "static/media/MePortfolio.jpeg": "/react-portfolio/static/media/MePortfolio.2f0acea562cfa6572e33.jpeg",
     "static/media/Weather-Dashboard.png": "/react-portfolio/static/media/Weather-Dashboard.9550a59068d01e6c4dea.png",
     "static/media/Social-Network-API.png": "/react-portfolio/static/media/Social-Network-API.4d22a5cbda56552a86d1.png",
@@ -12,12 +13,12 @@
     "static/media/jquery.png": "/react-portfolio/static/media/jquery.94544f76670668b8a863.png",
     "static/media/node.png": "/react-portfolio/static/media/node.93609dcb4487bd938dab.png",
     "index.html": "/react-portfolio/index.html",
-    "main.d86cacdd.css.map": "/react-portfolio/static/css/main.d86cacdd.css.map",
-    "main.e2cbfe1e.js.map": "/react-portfolio/static/js/main.e2cbfe1e.js.map",
+    "main.d115e975.css.map": "/react-portfolio/static/css/main.d115e975.css.map",
+    "main.e4e995fa.js.map": "/react-portfolio/static/js/main.e4e995fa.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d86cacdd.css",
-    "static/js/main.e2cbfe1e.js"
+    "static/css/main.d115e975.css",
+    "static/js/main.e4e995fa.js"
   ]
 }
